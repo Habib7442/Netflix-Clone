@@ -1,0 +1,11 @@
+:root {
+    --primary: hsla(167, 16%, 11%, 0.5);
+    --secondary: hsla(243, 69%, 10%, 0.45);
+  }
+
+.register{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, var(--primary), var(--secondary)),url("https://assets.nflxext.com/ffe/siteui/vlv3/28b69a57-cadf-43d9-8a95-e5f2e11199de/a678bf27-dbb6-42e7-aad1-d4dbb1c31d7b/IN-en-20221010-popsignuptwoweeks-perspective_alpha_website_small.jpg"),no-repeat;
+    background-size: cover;
+}

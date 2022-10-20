@@ -1,0 +1,36 @@
+.signin {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 500px;
+    width: 450px;
+    border-radius: 8px;
+    background: black;
+    padding: 0 50px;
+    .h1{
+        color: white;
+    }
+    input{
+        padding: 15px;
+        border-radius: 5px;
+        background-color: #454545;
+        color: whitesmoke;
+        outline: none;
+    }
+    .button{
+        padding: 15px;
+    }
+
+    .desc{
+      color: white;
+    }
+  }
+}

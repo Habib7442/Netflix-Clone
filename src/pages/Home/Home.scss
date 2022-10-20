@@ -1,0 +1,111 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0,
+      transparent 60%,
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/28b69a57-cadf-43d9-8a95-e5f2e11199de/a678bf27-dbb6-42e7-aad1-d4dbb1c31d7b/IN-en-20221010-popsignuptwoweeks-perspective_alpha_website_large.jpg"),
+    no-repeat;
+  background-size: cover;
+
+  .top-pane {
+    display: flex;
+    justify-content: space-between;
+    .logo {
+      width: 164px;
+      margin-left: 30px;
+    }
+    .button {
+      margin: 35px 50px 0 0;
+    }
+
+    .signOut{
+      margin: 35px 50px 0 0;
+    }
+  }
+
+  .bottom-pane {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    h1 {
+      color: white;
+      text-align: center;
+      font-weight: 500;
+      font-size: 50px;
+    }
+    h3 {
+      color: white;
+      font-weight: 400;
+      text-align: center;
+      margin-top: 10px;
+    }
+    h4 {
+      color: white;
+      font-weight: 400;
+      font-size: 20px;
+      text-align: center;
+      margin-top: 25px;
+    }
+
+    .input {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      border-radius: 5px;
+      
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .button{
+            background-color: red;
+            color: white;
+            height: 60px;
+            margin-left: 10px;
+        }
+
+        .two{
+            margin-left: 5px;
+          }
+    }
+  }
+  a{
+    text-decoration: none;
+  }
+
+
+
+  #reg{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+    display: none !important;
+  }
+
+  #reg{
+    display: block !important;
+  }
+
+  .flexContent{
+    flex-direction: column;
+  }
+
+  .main-page{
+    display: none !important;
+  }
+
+
+}
