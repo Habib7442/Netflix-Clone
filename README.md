@@ -1,70 +1,73 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Netflix Clone
 
-## Available Scripts
+Tried to recreate a netflix clone using react and firebase
+## Features
+Sign In.
 
-In the project directory, you can run:
+Sign Up.
 
-### `yarn start`
+Logout.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+User Authentication.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Home](https://user-images.githubusercontent.com/104124676/196867816-043d36e2-f9ef-4c74-8e24-67daf70bdd8a.jpg)
 
-### `yarn eject`
+![Sign in](https://user-images.githubusercontent.com/104124676/196868429-8698a31b-6e19-45ed-8d1d-161e9e1e2fb4.jpg)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Main Page](https://user-images.githubusercontent.com/104124676/196868548-264865e9-1a0c-4555-89a7-6b70dbf9da9a.jpg)
+ 
+![Movies](https://user-images.githubusercontent.com/104124676/196868634-ba7b8ea8-e063-4d79-9f0f-cf1c5554f3c5.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![TV](https://user-images.githubusercontent.com/104124676/196868731-71dc30c8-492d-4434-96a4-1439af5afe7a.jpg)
+## Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![664-6644509_icon-react-js-logo-hd-png-download](https://user-images.githubusercontent.com/104124676/196870131-c9fdd6d0-3c0f-4cd5-8de4-da8693e1a933.png)
 
-## Learn More
+![scss](https://user-images.githubusercontent.com/104124676/196869620-a478358b-87ee-4c61-9d71-469e6bd593f0.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Client:** React, SASS
 
-### Code Splitting
+![firebase](https://user-images.githubusercontent.com/104124676/196869346-be9d99cb-9985-4757-947c-81c5d389c3ba.png)
+**Server:** React, SASS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install React project with npm
 
-### Making a Progressive Web App
+```bash
+npx create-react-app my-app
+cd my-app
+npm start
+```
+Install React project with yarn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+yarn create react-app my-app
+cd my-app
+yarn start
+```
+React Dependencies used in this project
 
-### Advanced Configuration
+```bash
+npm i react-router-dom
+npm i sass
+npm install @mui/material @emotion/react @emotion/styled
+npm i react-bootstrap
+npm i bootstrap
+```
+** If you are using yarn instead of npm than just replace npm i with yarn add.
+    
+## Font Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+'Roboto', sans-serif;
