@@ -6,9 +6,9 @@ import CrimeTvShows from "../../Data/CrimeTvShows";
 import InternationalTvDramas from "../../Data/InternationalTvDramas";
 import UsTvShows from "../../Data/UsTvShows";
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+// import "swiper/css";
+// import "swiper/css/pagination";
+// import "swiper/css/navigation";
 
 import { Pagination, Navigation } from "swiper";
 
